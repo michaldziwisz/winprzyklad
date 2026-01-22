@@ -1,0 +1,32 @@
+#pragma once
+
+#define IDD_MAIN 101
+
+#define IDC_CHECK1 1001
+#define IDC_CHECK2 1002
+#define IDC_CHECK3 1003
+
+#define IDC_RADIO1 1011
+#define IDC_RADIO2 1012
+#define IDC_RADIO3 1013
+
+#define IDC_EDIT_NAME 1021
+#define IDC_EDIT_MULTI 1022
+
+#define IDC_COMBO 1031
+#define IDC_LISTBOX 1032
+
+#define IDC_SLIDER 1041
+#define IDC_SLIDER_VALUE 1042
+
+#define IDC_PROGRESS 1051
+#define IDC_PROGRESS_BTN 1052
+
+#define IDC_DATETIME 1061
+#define IDC_LINK 1062
+
+#define IDC_LISTVIEW 1071
+#define IDC_TREEVIEW 1072
+
+#define IDC_STATUS 1091
+

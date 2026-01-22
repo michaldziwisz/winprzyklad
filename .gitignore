@@ -1,0 +1,11 @@
+build/
+dist/
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.res
+*.manifest
+
