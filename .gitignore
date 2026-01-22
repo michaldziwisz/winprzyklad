@@ -8,4 +8,4 @@ dist/
 *.ilk
 *.res
 *.manifest
-
+!resources/app.manifest
