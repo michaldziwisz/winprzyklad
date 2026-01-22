@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
   <assemblyIdentity version="1.0.0.0" processorArchitecture="*" name="dostepne-kontrolki-winapi" type="win32" />
-  <description>Dostepne kontrolki WinAPI</description>
+  <description>Dostępne kontrolki WinAPI</description>
 
   <dependency>
     <dependentAssembly>

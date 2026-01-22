@@ -115,7 +115,7 @@ void IncrementProgress(HWND dialog) {
     pos = 0;
   }
   SendMessageW(progress, PBM_SETPOS, pos, 0);
-  SetStatusText(dialog, L"Status: ustawiono postep na " + std::to_wstring(pos) + L"%.");
+  SetStatusText(dialog, L"Status: ustawiono postęp na " + std::to_wstring(pos) + L"%.");
 }
 
 void UpdateStatusFromCombo(HWND dialog) {

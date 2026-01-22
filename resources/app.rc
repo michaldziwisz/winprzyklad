@@ -7,12 +7,12 @@
 IDD_MAIN DIALOGEX 0, 0, 520, 392
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW | WS_EX_CONTROLPARENT
-CAPTION "Dostepne kontrolki WinAPI"
+CAPTION "Dostępne kontrolki WinAPI"
 FONT 9, "Segoe UI"
 BEGIN
-    LTEXT           "Przykladowe standardowe kontrolki WinAPI (dostepne dla czytnikow ekranu). Uzyj TAB/SHIFT+TAB do nawigacji, ALT+podkreslona litera ustawia fokus.", IDC_STATIC, 8, 6, 504, 18
+    LTEXT           "Przykładowe standardowe kontrolki WinAPI (dostępne dla czytników ekranu). Użyj TAB/SHIFT+TAB do nawigacji, ALT+podkreślona litera ustawia fokus.", IDC_STATIC, 8, 6, 504, 18
 
-    GROUPBOX        "Wybor (checkboxy)", IDC_STATIC, 8, 28, 250, 90
+    GROUPBOX        "Wybór (checkboxy)", IDC_STATIC, 8, 28, 250, 90
     CONTROL         "&Checkbox 1", IDC_CHECK1, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 16, 44, 232, 12
     CONTROL         "Checkbox &2", IDC_CHECK2, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 16, 60, 232, 12
     CONTROL         "Checkbox &3 (3-stanowy)", IDC_CHECK3, "Button", BS_AUTO3STATE | WS_TABSTOP, 16, 76, 232, 12
@@ -23,30 +23,30 @@ BEGIN
     CONTROL         "Opcja &C", IDC_RADIO3, "Button", BS_AUTORADIOBUTTON | WS_TABSTOP, 270, 76, 232, 12
 
     GROUPBOX        "Tekst", IDC_STATIC, 8, 122, 250, 100
-    LTEXT           "&Imie:", IDC_STATIC, 16, 140, 52, 10
+    LTEXT           "&Imię:", IDC_STATIC, 16, 140, 52, 10
     EDITTEXT        IDC_EDIT_NAME, 70, 138, 180, 14, ES_AUTOHSCROLL | WS_TABSTOP
     LTEXT           "&Opis (multiline):", IDC_STATIC, 16, 160, 100, 10
     EDITTEXT        IDC_EDIT_MULTI, 16, 172, 234, 40, ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL | WS_TABSTOP
 
-    GROUPBOX        "Wybor z listy", IDC_STATIC, 262, 122, 250, 100
+    GROUPBOX        "Wybór z listy", IDC_STATIC, 262, 122, 250, 100
     LTEXT           "&Combo:", IDC_STATIC, 270, 140, 58, 10
     COMBOBOX        IDC_COMBO, 330, 138, 172, 120, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     LTEXT           "&ListBox:", IDC_STATIC, 270, 162, 58, 10
     LISTBOX         IDC_LISTBOX, 270, 174, 232, 40, LBS_NOTIFY | WS_VSCROLL | WS_TABSTOP
 
-    GROUPBOX        "Suwak / postep / data", IDC_STATIC, 8, 230, 250, 126
+    GROUPBOX        "Suwak / postęp / data", IDC_STATIC, 8, 230, 250, 126
     LTEXT           "&Suwak:", IDC_STATIC, 16, 248, 52, 10
     CONTROL         "", IDC_SLIDER, "msctls_trackbar32", TBS_AUTOTICKS | WS_TABSTOP, 70, 244, 130, 18
     LTEXT           "50", IDC_SLIDER_VALUE, 206, 248, 44, 10
 
-    LTEXT           "&Postep:", IDC_STATIC, 16, 272, 52, 10
+    LTEXT           "&Postęp:", IDC_STATIC, 16, 272, 52, 10
     CONTROL         "", IDC_PROGRESS, "msctls_progress32", WS_TABSTOP, 70, 270, 130, 12
     PUSHBUTTON      "&+10%", IDC_PROGRESS_BTN, 206, 268, 44, 14
 
     LTEXT           "&Data:", IDC_STATIC, 16, 296, 52, 10
     CONTROL         "", IDC_DATETIME, "SysDateTimePick32", DTS_SHORTDATEFORMAT | WS_TABSTOP, 70, 294, 180, 14
 
-    CONTROL         "<a href=""https://example.com"">Przykladowy link (SysLink)</a>", IDC_LINK, "SysLink", WS_TABSTOP, 16, 318, 234, 14
+    CONTROL         "<a href=""https://example.com"">Przykładowy link (SysLink)</a>", IDC_LINK, "SysLink", WS_TABSTOP, 16, 318, 234, 14
 
     GROUPBOX        "Widoki (ListView / TreeView)", IDC_STATIC, 262, 230, 250, 126
     LTEXT           "&ListView:", IDC_STATIC, 270, 246, 80, 10
